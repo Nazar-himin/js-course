@@ -26,3 +26,6 @@ console.log('----------------TASK  FOUR----------------');
 
 //Task FIVE
 console.log('----------------TASK  FIVE----------------');
+
+//Task SIX
+console.log('----------------TASK  SIX----------------');
