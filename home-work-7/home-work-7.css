@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.banner {
+    background-image: url('../img/single_back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #00000063;
+    flex-direction: column;
+}
+
+.main_menu nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.main_menu nav a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease-out;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.main_menu nav a:hover {
+    color: #6ec0e5;
+    transition: all 0.3s ease-out;
+}
+
+a.menu_link.active {
+    color: #6ec0e5;
+}
+
+.baner_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner span {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.baner_text a {
+    padding: 10px;
+    border: solid 3px #fff;
+    text-decoration: none;
+    background: #6ec0e5;
+    transition: all 0.3s linear;
+    margin-top: 15%;
+}
+
+.baner_text a span {
+    font-size: 25px;
+    transition: all 0.3s linear;
+}
+
+.baner_text a:hover {
+    background: #fff;
+    border: solid 3px #6ec0e5;
+    transition: all 0.3s linear;
+}
+
+.baner_text a:hover span {
+    color: #6ec0e5;
+    transition: all 0.3s linear;
+}
+
+.home_work_console {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 6px #6ec0e5;
+    color: #6ec0e5;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+footer {
+    padding: 10px;
+    background: #6ec0e5;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_change_style {
+    padding: 20px;
+    border: solid 6px #6ec0e5;
+    text-align: center;
+}
+
+button {
+    border: 1px solid #6ec0e5;
+    width: 15%;
+    height: 50px;
+    background: #6ec0e5;
+    transition: all 0.5s ease-out;
+    border-radius: 255px 25px 225px 25px/25px 225px;
+    color: #fff;
+    outline: none;
+}
+
+button:hover {
+    transition: all 0.5s ease-out;
+    border-radius: 25px 225px/255px 25px 225px 25px;
+    cursor: pointer;
+}
+
+div#taskThree div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#taskThree {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 6px #6ec0e5;
+    color: #6ec0e5;
+    font-weight: 600;
+    text-align: center;
+}
+
+button#pinkPage {
+    background: pink;
+    border-color: pink;
+}
+
+button#brownPage {
+    background: brown;
+    border-color: brown;
+}
+
+#yellowPage {
+    color: #baba00;
+}
+
+.btn_sec button {
+    width: 200px;
+    height: 200px;
+}
+
+.btn_sec {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div#liveBtn button {
+    width: 100px;
+    height: 100px;
+}
+
+div#liveBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 6px #6ec0e5;
+}
+
+div#liveBtnText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resize_scr {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 6px #6ec0e5;
+    color: #6ec0e5;
+    font-weight: 600;
+    text-align: center;
+}
+
+div#taskFour {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 6px #6ec0e5;
+    color: #6ec0e5;
+    font-weight: 600;
+    text-align: center;
+}
+
+button#deleteBtn {
+    width: 200px;
+    height: 50px;
+    background: #fff;
+    color: #6ec0e5;
+    border: solid 2px #6ec0e5;
+    border-radius: 0px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+button#deleteBtn:hover {
+    background: #6ec0e5;
+    color: #fff;
+}
+
+select#mySelect {
+    width: 200px;
+    height: 50px;
+    border: solid 2px #6ec0e5;
+    color: #6ec0e5;
+    padding: 0px 10px;
+}
+
+option.hidden_opt {
+    display: none;
+}
+
+select {
+    width: 200px;
+    height: 50px;
+    border: solid 2px #6ec0e5;
+    color: #6ec0e5;
+    padding: 0px 10px;
+}
+
+div#taskFive {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat',
+        sans-serif;
+    border: solid 6px #6ec0e5;
+    color: #6ec0e5;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#citySelect {
+    display: none;
+}
+
+select#countrySelect option:first-child {
+    display: none;
+}
+
+.select_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+
+    .btn_div button {
+        width: 100%;
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .main_menu nav {
+        flex-wrap: wrap;
+    }
+
+    .main_menu nav a {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    button#btn {
+        width: 100px;
+        height: 50px;
+    }
+
+    select {
+        width: 100%;
+        height: 50px;
+        border: solid 2px #6ec0e5;
+        color: #6ec0e5;
+        padding: 0px 10px;
+    }
+
+    select {
+        width: 90%;
+        height: 50px;
+        border: solid 2px #6ec0e5;
+        color: #6ec0e5;
+        padding: 0px 10px;
+        display: flex;
+        margin: 0px 10px;
+    }
+
+    div#taskFour {
+        padding: 20px;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        border: solid 6px #6ec0e5;
+        color: #6ec0e5;
+        font-weight: 600;
+        text-align: center;
+        display: flex;
+    }
+
+    button#deleteBtn {
+        font-size: 13px;
+    }
+}
