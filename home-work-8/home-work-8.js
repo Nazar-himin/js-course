@@ -103,11 +103,8 @@ function checkLogin(log) {
 }
 
 checkLogin('ee11ret3');
-checkLogin('q12w3e4rw5');
-checkLogin('q1.2w3e4rw5');
+checkLogin('q1.2w3e4rw');
 checkLogin('ee1*1ret3');
-checkLogin('e511ret3');
-checkLogin('e3e1-1r1t3');
 checkLogin('q2q1q1w1w2w3w3w3');
-checkLogin('q2.1e2.2');
+checkLogin('q2.1--2.2');
 checkLogin('q2');
