@@ -74,15 +74,14 @@ checkEmail('#my_mail@gmail.com');
 //Task SEVEN
 console.log('----------------TASK SEVEN----------------');
 function checkLogin(log) {
-  let pasReg = /^[a-z]{1}[a-z0-9]{2,10}$/gi.test(log);
-
+  let pasReg = /^[a-z]([0-9a-z\.]){1,9}$/gi.test(log);
   if (pasReg) {
     console.log(`true! Your password: ${log}`);
   } else {
     console.log(`false! Your password: ${log}`);
   }
 
-  let pasNumbers = /\d+/g;
+  let pasNumbers = /\d+(\.\d)?/g;
   let arr = log.match(pasNumbers);
   let sortedArr = [];
   let count = 1;
@@ -105,7 +104,11 @@ function checkLogin(log) {
 }
 
 checkLogin('ee11ret3');
+checkLogin('q12w3e4rw5');
+checkLogin('q1.2w3e4rw5');
 checkLogin('ee1*1ret3');
 checkLogin('e511ret3');
 checkLogin('e3e1-1r1t3');
 checkLogin('q2q1q1w1w2w3w3w3');
+checkLogin('q2.1e2.2');
+checkLogin('q2');
