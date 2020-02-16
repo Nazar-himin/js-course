@@ -17,15 +17,14 @@ upperCase('RegExp');
 
 //Task TWO
 console.log('----------------TASK TWO----------------');
-
-let askEmail = prompt('Enter email');
-
-function checkEmail(x) {
+function checkFisrtEmail(x) {
   let expReg = /\w{1,}@\w{1,}\.\w{1,}/gi;
-  console.log(expReg.test(x));
+  console.log(`Your Email: ${x} is ${expReg.test(x)}`);
 }
 
-checkEmail(askEmail);
+checkFisrtEmail('Qmail2@gmail.com');
+checkFisrtEmail('1mail2@gmail.com');
+checkFisrtEmail('Qmail2gmail.com');
 
 //Task THREE
 console.log('----------------TASK THREE----------------');
