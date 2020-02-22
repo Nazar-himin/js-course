@@ -61,9 +61,9 @@ console.log('----------------TASK SIX----------------');
 function checkEmail(someMail) {
   let mailReg = /^[a-z0-9]\w+[-]?\w+@\w+[-]?\w+\.\w+$/gi.test(someMail);
   if (mailReg) {
-    console.log('Email is correct!');
+    console.log(`Email ${someMail} is correct!`);
   } else {
-    console.log('Email is not correct!');
+    console.log(`Email ${someMail} is not correct!`);
   }
 }
 
@@ -97,7 +97,7 @@ function checkLogin(log) {
     if (count === 1) {
       console.log(sortedArr[i]);
     } else {
-      console.log(`${sortedArr[i]} = ${count}(times)`);
+      console.log(`${sortedArr[i]}  ${count}(times)`);
     }
   }
 }
